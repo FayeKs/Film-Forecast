@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: rgb(0,0,0);
+background: linear-gradient(135deg, #0F0F0F, #1e1e1e);
+  /* background: url(./assets/icons/veronika-galkina-ANuVzeKDwtg-unsplash.jpg); */
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+

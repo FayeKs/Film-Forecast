@@ -1,0 +1,48 @@
+.moviesDisplay {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.moviesTop {
+    width: 100%;
+
+}
+
+.moviesTop p {
+    opacity: 0.7;
+    text-align: center;
+    margin: 100%;
+    margin: 10px;
+    font-size: 16px;
+} 
+
+.movies {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background: #252525;
+    width: 90%;
+    
+}
+
+.movieCard img{
+    width: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    text-decoration: none;
+ transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.movieCard img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: #444;
+    box-shadow: 0 0 8px 4px #0ff;
+}
