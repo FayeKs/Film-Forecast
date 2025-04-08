@@ -22,13 +22,13 @@ The Movie Database (TMDb) API for movie recommendations:
   * Provides movie information and genres based on weather conditions.
 
 ## Technologies Used
-HTML: Structure and layout of the weather app.
-CSS: Styling for responsive design.
-React: JavaScript library for building the user interface.
-TypeScript: For type safety and better code organization.
-Axios: For making API requests.
-Vite: Build tool for fast development and bundling.
-NPM: For dependency management and scripts.  
+* HTML: Structure and layout of the weather app.
+* CSS: Styling for responsive design.
+* React: JavaScript library for building the user interface.
+* TypeScript: For type safety and better code organization.
+* Axios: For making API requests.
+* Vite: Build tool for fast development and bundling.
+* NPM: For dependency management and scripts.  
 
 ## Usage
 1. Enter the name of the city you want to check the weather for.
